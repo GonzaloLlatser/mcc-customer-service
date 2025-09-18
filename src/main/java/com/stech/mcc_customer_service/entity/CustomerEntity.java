@@ -53,7 +53,7 @@ public class CustomerEntity implements IMapper<CustomerDTO>, Serializable {
   }
 
   @Override
-  public void setDTO(CustomerDTO customerDTO) {
+  public void setData(CustomerDTO customerDTO) {
     this.id = customerDTO.getId();
     this.cu = customerDTO.getCu();
     this.name = customerDTO.getName();
